@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    #LANDING PAGE
+\*------------------------------------*/
+
+.landing {
+    min-height: 91vh;
+
+    .divider {
+        display: flex;
+    }
+}
+
+
+.headers {
+    flex: 70%;
+    padding: 60px;
+
+    h1 {
+        padding-bottom: 30px;
+    }
+
+    h2 {
+        padding-bottom: 50px;
+    }
+}
+
+.descriptionSection {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+
+    h2 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
