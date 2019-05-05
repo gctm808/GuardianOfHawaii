@@ -179,7 +179,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Body base styles
  */
 body {
-  background: #eff0f2;
+  background-color: #fafafa;
   color: #050c39;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-size: 1.0625rem;
@@ -187,6 +187,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 /*------------------------------------*\
@@ -1998,7 +1999,7 @@ progress[value]::-webkit-progress-bar {
 }
 @media all and (min-width: 50em) {
   .l--two-col .l-main {
-    width: 70%;
+    width: 60%;
     padding-right: 1em;
   }
 }
@@ -2010,8 +2011,11 @@ progress[value]::-webkit-progress-bar {
 @media all and (min-width: 50em) {
   .l--two-col .l-sidebar {
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     padding: 0 0 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media all and (min-width: 50em) {
@@ -2246,6 +2250,64 @@ progress[value]::-webkit-progress-bar {
   text-align: center;
 }
 
+.aboutContainer {
+  min-height: 60vh;
+  background-color: aliceblue;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.aboutContainer h2 {
+  padding: 70px 0 20px;
+}
+.aboutContainer p {
+  padding-bottom: 20px;
+}
+.aboutContainer .gohBold {
+  font-weight: bold;
+}
+.aboutContainer img {
+  max-width: 65%;
+}
+
+.productsContainer {
+  min-height: 100vh;
+  padding-top: 30px;
+  text-align: center;
+}
+.productsContainer h2 {
+  padding: 30px 0;
+}
+
+.productsPlusArrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-figure {
+  display: none;
+}
+
+.c-figure__media img {
+  max-width: 650px;
+}
+
+.c-figure__caption {
+  max-width: 700px;
+  text-align: center;
+}
+
+.activeItem {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productNav:hover {
+  color: #808080;
+  cursor: pointer;
+}
+
 /*------------------------------------*\
     $STYLE GUIDE
 \*------------------------------------*/
@@ -2288,7 +2350,7 @@ progress[value]::-webkit-progress-bar {
 }
 
 .sg-secondary {
-  background-color: #65b5fa;
+  background-color: aliceblue;
 }
 
 .sg-secondary-dark {

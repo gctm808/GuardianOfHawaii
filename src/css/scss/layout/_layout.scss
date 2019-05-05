@@ -28,7 +28,7 @@
 
 	.l-main {
 		@media all and (min-width: $bp-large) {
-			width: 70%;
+			width: 60%;
 			padding-right: $pad;
 		}
 	}
@@ -45,8 +45,11 @@
 
 		@media all and (min-width: $bp-large) {
 			flex-direction: column;
-			width: 30%;
+			width: 40%;
 			padding: 0 0 0 $pad;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 	
