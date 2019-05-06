@@ -1,12 +1,13 @@
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom';
 import '../css/styles.css';
-import Landing from '../main/landing/landing';
+import Landing from './landing';
 
 const App = () => {
     return (
-        <div>
+        <BrowserRouter>
             <Landing />
-        </div>
+        </BrowserRouter>
     );
 };
 
