@@ -179,7 +179,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Body base styles
  */
 body {
-  background-color: #fafafa;
+  background-color: #FFFFFF;
   color: #050c39;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-size: 1.0625rem;
@@ -2219,7 +2219,7 @@ progress[value]::-webkit-progress-bar {
     #LANDING PAGE
 \*------------------------------------*/
 .landing {
-  min-height: 91vh;
+  min-height: 92vh;
 }
 .landing .divider {
   display: flex;
@@ -2252,7 +2252,7 @@ progress[value]::-webkit-progress-bar {
 
 .aboutContainer {
   min-height: 60vh;
-  background-color: aliceblue;
+  background-color: #f3f5f5;
   padding-top: 30px;
   padding-left: 60px;
 }
@@ -2303,6 +2303,9 @@ progress[value]::-webkit-progress-bar {
   align-items: center;
 }
 
+.productNav {
+  padding-bottom: 150px;
+}
 .productNav:hover {
   color: #808080;
   cursor: pointer;

@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .landing {
-    min-height: 91vh;
+    min-height: 92vh;
 
     .divider {
         display: flex;
@@ -38,11 +38,11 @@
     p {
         text-align: center;
     }
-}
+} 
 
 .aboutContainer {
     min-height: 60vh;
-    background-color: $color-brand-secondary;
+    background-color: #f3f5f5;
     padding-top: 30px;
     padding-left: 60px;
 
@@ -102,6 +102,7 @@
 }
 
 .productNav {
+    padding-bottom: 150px;
 
     &:hover {
         color: $color-gray-4;
