@@ -13,7 +13,7 @@ const FigWithCaption = (props) => {
             <div className="c-figure__media">
                 <img src={require(`../../images/${fig.img}`)} alt="Landscape" className="" />
             </div>
-            <figcaption className="c-figure__caption">{fig.title}<br /><br />{fig.caption}</figcaption>
+            <figcaption className="c-figure__caption"><span className='captionTitle'>{fig.title}</span><br /><br />{fig.caption}</figcaption>
         </figure>
     );
 };

@@ -1,0 +1,30 @@
+.extraPadding {
+    padding: 5rem !important;
+}
+
+h2 {
+    padding: 0 0 30px !important;
+}
+
+.splitContainer {
+    display: flex;
+
+    .half1 {
+        flex: 50%;
+    }
+
+    .half2 {
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 85% !important;
+        }
+    }
+}
+
+h2:nth-of-type(2) {
+    text-align: center;
+}
