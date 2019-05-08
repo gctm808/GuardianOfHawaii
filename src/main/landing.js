@@ -6,7 +6,7 @@ import Home from './home';
 import About from './about';
 import Products from './products';
 import Contact from './contact';
-import Login from './login';
+import Agents from './agents';
 import {Route} from 'react-router-dom';
 
 const Landing = () => {
@@ -18,7 +18,7 @@ const Landing = () => {
                 <Route exact path='/about' component={About} />
                 <Route exact path='/products' component={Products} />
                 <Route exact path='/contact' component={Contact} />
-                <Route exact path='/login' component={Login} />
+                <Route exact path='/agents' component={Agents} />
             <Footer />
         </div>
     );

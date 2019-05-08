@@ -141,9 +141,10 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 
 
 /*------------------------------------*\
-    $LANDING PAGE
+    $PAGE-SPECIFIC STYLES
 \*------------------------------------*/
 @import "scss/layout/landing";
+@import "scss/layout/agents";
 
 
 /*------------------------------------*\
