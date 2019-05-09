@@ -888,7 +888,7 @@ abbr {
   display: inline-block;
   line-height: 1;
   font-weight: bold;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   border: 0;
   border-radius: 6px;
   text-align: center;
@@ -2345,6 +2345,14 @@ progress[value]::-webkit-progress-bar {
   width: 70%;
   margin-right: 20%;
 }
+@media all and (max-width: 600px) {
+  .quickLinks .links {
+    flex: 1;
+  }
+  .quickLinks .links Button {
+    width: 90%;
+  }
+}
 .quickLinks .pic {
   flex: 30%;
 }
@@ -2353,13 +2361,19 @@ progress[value]::-webkit-progress-bar {
   width: 100%;
   filter: grayscale(1);
 }
+@media all and (max-width: 600px) {
+  .quickLinks .pic {
+    flex: 0;
+    display: none;
+  }
+}
 
 .extraPadding {
   padding: 5rem !important;
 }
 
 h2 {
-  padding: 0 0 30px !important;
+  padding: 0 0 20px !important;
 }
 
 .splitContainer {
@@ -2376,10 +2390,29 @@ h2 {
 }
 .splitContainer .half2 img {
   height: 85% !important;
+  padding: 5%;
 }
 
 h2:nth-of-type(2) {
   text-align: center;
+}
+
+#lori {
+  align-items: center !important;
+}
+#lori img {
+  max-height: 500px !important;
+  padding: 5%;
+}
+
+#loriDescription {
+  display: flex;
+  align-items: center;
+}
+
+.productBox {
+  padding: 1rem;
+  background-color: aliceblue;
 }
 
 /*------------------------------------*\

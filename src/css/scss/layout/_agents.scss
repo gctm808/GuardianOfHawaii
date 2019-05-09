@@ -2,7 +2,6 @@
     padding-top: 30px;
 
     .intro {
-        
         Button {
             margin-bottom: 50px;
         }
@@ -38,6 +37,14 @@
                 }
             }
         }
+
+        @media all and (max-width: 600px){
+            flex: 1;
+
+            Button {
+                width: 90%;
+            }
+        }
     }
 
     .pic {
@@ -47,6 +54,11 @@
             height: 90%;
             width: 100%;
             filter: grayscale(1);
+        }
+
+        @media all and (max-width: 600px){
+            flex: 0;
+            display: none;
         }
     }
 }

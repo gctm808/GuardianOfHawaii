@@ -3,7 +3,7 @@
 }
 
 h2 {
-    padding: 0 0 30px !important;
+    padding: 0 0 20px !important;
 }
 
 .splitContainer {
@@ -21,10 +21,25 @@ h2 {
 
         img {
             height: 85% !important;
+            padding: 5%;
         }
     }
 }
 
 h2:nth-of-type(2) {
     text-align: center;
+}
+
+#lori {
+    align-items: center !important;
+
+    img {
+        max-height: 500px !important;
+        padding: 5%;
+    }
+}
+
+#loriDescription {
+    display: flex;
+    align-items: center;
 }
