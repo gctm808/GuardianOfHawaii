@@ -2411,8 +2411,9 @@ h2:nth-of-type(2) {
 }
 
 .productBox {
-  padding: 1rem;
+  padding: 2rem;
   background-color: aliceblue;
+  margin-bottom: 2rem;
 }
 
 /*------------------------------------*\

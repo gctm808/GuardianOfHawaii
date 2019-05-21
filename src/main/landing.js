@@ -7,6 +7,11 @@ import About from './about';
 import Products from './products';
 import Contact from './contact';
 import Agents from './agents';
+import Annuities from './products/annuities';
+import Disabilities from './products/disabilities';
+import Life from './products/life';
+import Ltc from './products/ltc';
+import Linked from './products/linked';
 import {Route} from 'react-router-dom';
 
 const Landing = () => {
@@ -19,6 +24,11 @@ const Landing = () => {
                 <Route exact path='/products' component={Products} />
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/agents' component={Agents} />
+                <Route exact path='/products/annuities' component={Annuities} />
+                <Route exact path='/products/disabilities' component={Disabilities} />
+                <Route exact path='/products/life' component={Life} />
+                <Route exact path='/products/ltc' component={Ltc} />
+                <Route exact path='/products/linked' component={Linked} />
             <Footer />
         </div>
     );
