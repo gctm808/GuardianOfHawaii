@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <div>
             <div style={{  backgroundImage: `url(${landing})`,
+            backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'}} className='landing'>

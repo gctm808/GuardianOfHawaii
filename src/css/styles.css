@@ -1990,6 +1990,7 @@ progress[value]::-webkit-progress-bar {
 .l--two-col {
   display: flex;
   flex-direction: column;
+  align-items: center;
   /**
    * Sidebar
    */
@@ -2250,8 +2251,9 @@ progress[value]::-webkit-progress-bar {
 .aboutContainer {
   min-height: 60vh;
   background-color: #f3f5f5;
-  padding-top: 30px;
   padding-left: 60px;
+  display: flex;
+  align-items: center;
 }
 .aboutContainer h2 {
   padding: 70px 0 20px;
@@ -2338,12 +2340,16 @@ progress[value]::-webkit-progress-bar {
   flex: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
-.quickLinks .links .buttonContainer .buttons Button {
+.quickLinks .links .buttonContainer .buttons a {
   width: 70%;
-  margin-right: 20%;
+  margin-right: 30%;
+  text-align: center;
+}
+.quickLinks .links .buttonContainer .buttons a Button {
+  width: 120%;
 }
 @media all and (max-width: 600px) {
   .quickLinks .links {
