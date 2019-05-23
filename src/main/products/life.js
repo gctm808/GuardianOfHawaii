@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../css/styles.css';
 
 const Life = () => {
     return (
-        <div>
+        <div className='l extraPadding'>
             <div>
                 <h2>Establishing a Solid Simple Foundation</h2>
                 <p>Our life-long passion has been to help families establish solid financial foundations, starting with life insurance and offering long-term and personalized answers. Therefore, we unceasingly explore options that will complete our reputable life insurance portfolio, which include but are not limited to:</p>

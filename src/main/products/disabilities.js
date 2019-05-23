@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../css/styles.css';
 
 const Disabilities = () => {
     return (
-        <div>
+        <div className='l extraPadding'>
             <h2>Expertise with Personality</h2>
             <p>Our professionals who are experts on disability insurance and all of its nuances, have established deep relationships with excellent carriers and continue to make strides in addressing income replacement before it becomes an issue too late to address.</p>
             <h2>Best-In-Class Service</h2>

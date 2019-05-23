@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../css/styles.css';
 
 const Linked = () => {
     return (
-        <div>
+        <div className='l extraPadding'>
             Linked
         </div>
     );

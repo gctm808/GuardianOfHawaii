@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../css/styles.css';
 
 const Annuities = () => {
     return (
-        <div>
+        <div className='l extraPadding'>
             <h2>Making your money work for you</h2>
             <p>Whether your clients are starting off in the 
             workforce, headed toward retirement, or living 
