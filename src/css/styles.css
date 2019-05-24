@@ -650,6 +650,10 @@ abbr {
   cursor: help;
 }
 
+.isBold {
+  font-weight: bold;
+}
+
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
@@ -700,7 +704,7 @@ abbr {
 }
 .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
   background: #444444;
-  color: darkseagreen;
+  color: #caebca;
 }
 
 /*------------------------------------*\
@@ -716,7 +720,7 @@ abbr {
   transition: all 0.2s ease;
 }
 .c-block-media:hover .c-block-media__headline, .c-block-media:focus .c-block-media__headline {
-  color: darkseagreen;
+  color: #caebca;
 }
 .c-block-media--small {
   font-size: 0.875rem;
@@ -808,7 +812,7 @@ abbr {
 }
 .c-block-tout:hover .c-block-tout__headline, .c-block-tout:focus .c-block-tout__headline {
   padding-bottom: 2rem;
-  color: darkseagreen;
+  color: #caebca;
 }
 
 /*------------------------------------*\
@@ -894,7 +898,7 @@ abbr {
   text-align: center;
   transition: background 0.2s ease;
   box-shadow: 1px 1px 4px #808080;
-  background: darkseagreen;
+  background: #caebca;
   color: #222222;
   /**
    * Disabled button
@@ -948,7 +952,7 @@ abbr {
   transition: all 0.2s ease;
 }
 .c-text-btn:hover, .c-text-btn:focus {
-  color: darkseagreen;
+  color: #caebca;
 }
 .c-text-btn:hover:after, .c-text-btn:focus:after {
   right: -28px;
@@ -964,7 +968,7 @@ abbr {
   background: #a5a5a5;
 }
 .c-btn--overlay:hover, .c-btn--overlay:focus {
-  background-color: darkseagreen !important;
+  background-color: #caebca !important;
 }
 
 /*------------------------------------*\
@@ -1089,13 +1093,13 @@ abbr {
 /**
  * Footer Nav Links
  */
-.c-footer-nav__link {
+.c-footer-nav__link a {
   font-weight: bold;
   display: block;
   padding: 1rem 2rem 1rem 0;
   color: #fff;
 }
-.c-footer-nav__link:hover, .c-footer-nav__link:focus {
+.c-footer-nav__link a:hover, .c-footer-nav__link a:focus {
   color: #a5a5a5;
 }
 
@@ -1753,7 +1757,7 @@ textarea {
   width: 3rem;
   height: 0.5rem;
   bottom: 0;
-  background: darkseagreen;
+  background: #caebca;
 }
 
 /*------------------------------------*\
@@ -2422,6 +2426,22 @@ h2:nth-of-type(2) {
   margin-bottom: 2rem;
 }
 
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 15px 0;
+}
+
 /*------------------------------------*\
     $STYLE GUIDE
 \*------------------------------------*/
@@ -2456,7 +2476,7 @@ h2:nth-of-type(2) {
 }
 
 .sg-primary {
-  background-color: darkseagreen;
+  background-color: #caebca;
 }
 
 .sg-primary-dark {

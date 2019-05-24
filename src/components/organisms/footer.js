@@ -9,7 +9,6 @@ const Footer = () => {
             <div className="l">
                 <LogoLink img='whiteLogo.png' link='#' />
                 <FooterNav />
-                <p className="c-footer__info">Footer Info</p>
                 <p className="copyright">&copy; 2019 gmooreDev All rights reserved.</p>
             </div>
         </footer>
