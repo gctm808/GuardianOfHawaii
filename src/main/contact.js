@@ -12,7 +12,10 @@ const Contact = () => {
                     <Form field1='Name' field2='Email' field3='Message' button='SUBMIT' />
                 </div>
                 <div className='l-sidebar'>
-                    sidebar
+                    <p>Hours:</p>
+                    <p>9am - 4pm HST</p>
+                    <p>Phone Number</p>
+                    <p>(808) 531-9911</p>
                 </div>
             </div>
         </div>
