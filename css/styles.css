@@ -207,6 +207,45 @@ body {
   opacity: 0;
 }
 
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-500%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(1000%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.transitionTop {
+  animation-name: slideInFromTop;
+  animation-duration: 1s;
+}
+
+.transitionLeft {
+  animation-name: slideInFromLeft;
+  animation-duration: 2s;
+}
+
+.transitionBottom {
+  animation-name: slideInFromBottom;
+  animation-duration: 3s;
+}
+
 /*------------------------------------*\
     #FORMS
 \*------------------------------------*/
@@ -650,6 +689,10 @@ abbr {
   cursor: help;
 }
 
+.isBold {
+  font-weight: bold;
+}
+
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
@@ -890,12 +933,11 @@ abbr {
   font-weight: bold;
   padding: 1rem 1rem;
   border: 0;
-  border-radius: 6px;
   text-align: center;
   transition: background 0.2s ease;
   box-shadow: 1px 1px 4px #808080;
   background: darkseagreen;
-  color: #222222;
+  color: #f7f9f9;
   /**
    * Disabled button
    */
@@ -1089,13 +1131,15 @@ abbr {
 /**
  * Footer Nav Links
  */
-.c-footer-nav__link {
+.c-footer-nav__link a {
+  font-size: 1rem;
   font-weight: bold;
   display: block;
   padding: 1rem 2rem 1rem 0;
   color: #fff;
+  text-transform: uppercase;
 }
-.c-footer-nav__link:hover, .c-footer-nav__link:focus {
+.c-footer-nav__link a:hover, .c-footer-nav__link a:focus {
   color: #a5a5a5;
 }
 
@@ -1137,6 +1181,10 @@ abbr {
  */
 .c-form__actions {
   margin-bottom: 2rem;
+}
+
+.c-form textarea {
+  margin-bottom: 10px;
 }
 
 /*------------------------------------*\
@@ -1712,9 +1760,11 @@ textarea {
  * Nav Links
  */
 .c-primary-nav__link {
+  font-size: 1rem;
   font-weight: bold;
   display: block;
   padding: 1rem;
+  text-transform: uppercase;
 }
 
 /**
@@ -1990,6 +2040,7 @@ progress[value]::-webkit-progress-bar {
 .l--two-col {
   display: flex;
   flex-direction: column;
+  align-items: center;
   /**
    * Sidebar
    */
@@ -2250,8 +2301,9 @@ progress[value]::-webkit-progress-bar {
 .aboutContainer {
   min-height: 60vh;
   background-color: #f3f5f5;
-  padding-top: 30px;
   padding-left: 60px;
+  display: flex;
+  align-items: center;
 }
 .aboutContainer h2 {
   padding: 70px 0 20px;
@@ -2296,6 +2348,7 @@ progress[value]::-webkit-progress-bar {
 .c-figure__caption .captionTitle {
   font-weight: bold;
   font-style: normal !important;
+  text-transform: uppercase;
 }
 
 .activeItem {
@@ -2338,12 +2391,16 @@ progress[value]::-webkit-progress-bar {
   flex: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
-.quickLinks .links .buttonContainer .buttons Button {
+.quickLinks .links .buttonContainer .buttons a {
   width: 70%;
-  margin-right: 20%;
+  margin-right: 30%;
+  text-align: center;
+}
+.quickLinks .links .buttonContainer .buttons a Button {
+  width: 120%;
 }
 @media all and (max-width: 600px) {
   .quickLinks .links {
@@ -2372,10 +2429,6 @@ progress[value]::-webkit-progress-bar {
   padding: 5rem !important;
 }
 
-h2 {
-  padding: 0 0 20px !important;
-}
-
 .splitContainer {
   display: flex;
 }
@@ -2393,15 +2446,11 @@ h2 {
   padding: 5%;
 }
 
-h2:nth-of-type(2) {
-  text-align: center;
-}
-
 #lori {
   align-items: center !important;
 }
 #lori img {
-  max-height: 500px !important;
+  max-height: 400px !important;
   padding: 5%;
 }
 
@@ -2414,6 +2463,82 @@ h2:nth-of-type(2) {
   padding: 2rem;
   background-color: aliceblue;
   margin-bottom: 2rem;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.video-responsive iframe {
+  height: 90%;
+  width: 80%;
+  position: absolute;
+}
+
+.disabilityGraphics img {
+  width: 50%;
+}
+
+.disabilityVideo {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.productLinks {
+  text-align: center;
+}
+
+.annuityList {
+  display: flex;
+  padding: 50px 0;
+}
+.annuityList .left {
+  flex: 30%;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+.annuityList .right {
+  flex: 70%;
+}
+
+.fa-check {
+  padding-right: 5px;
+  color: darkseagreen;
+}
+
+.lifeList {
+  display: flex;
+  padding: 20px 0;
+}
+.lifeList .left {
+  flex: 30%;
+  padding-left: 30px;
+}
+.lifeList .right {
+  flex: 70%;
+  padding-left: 60px;
+}
+
+.calculators {
+  display: flex;
+  width: 90vw;
+  text-align: center;
+  margin: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 740px;
+}
+.calculators iframe {
+  width: 50%;
+  margin: 15px 0;
+  height: 100%;
+  width: 100%;
 }
 
 /*------------------------------------*\

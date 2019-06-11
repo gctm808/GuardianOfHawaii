@@ -37,12 +37,16 @@
  * Footer Nav Links
  */
 .c-footer-nav__link {
-	font-weight: bold;
-	display: block;
-	padding: 1rem 2rem 1rem 0;
-	color: $color-white;
-	
-	&:hover, &:focus {
-		color: $color-gray-3;
+	a {
+		font-size: 1rem;
+		font-weight: bold;
+		display: block;
+		padding: 1rem 2rem 1rem 0;
+		color: $color-white;
+		text-transform: uppercase;
+		
+		&:hover, &:focus {
+			color: $color-gray-3;
+		}
 	}
 }

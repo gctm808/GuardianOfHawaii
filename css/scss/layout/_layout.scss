@@ -25,6 +25,7 @@
 .l--two-col {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 
 	.l-main {
 		@media all and (min-width: $bp-large) {
@@ -57,7 +58,6 @@
 		flex-direction: row;
 	}
 }
-
 
 /*------------------------------------*\
     #GRIDS
