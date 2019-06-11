@@ -1,8 +1,10 @@
 import React from 'react';
+import '../../css/styles.css';
+import TextButton from '../../components/molecules/textButton';
 
 const Ltc = () => {
     return (
-        <div>
+        <div className='l extraPadding'>
             <h2>Long-Term Peace of Mind</h2>
                 <p>Our significant partnerships have produced a broad portfolio of Long Term Care options, including individual, joint, and linked benefit products. With the senior population growing by strides and with limited availability of resources for Long Term Care options, we constantly look for new trends to present our clients with the most advanced and complete services available.</p>
                 <h2>A Comprehensive Portfolio</h2>
@@ -16,8 +18,10 @@ const Ltc = () => {
                 <div>
                     <iframe title='ltcVid' width="936" height="534" src="https://www.youtube.com/embed/wTw5fYnyLew" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
-                <p>For agents seeking a quote, click below</p>
-                <a href="http://advisor.allegisag.com/forms/long-term-care-quote-request" target="_blank" rel='noopener noreferrer'>Long-Term Care Quote</a>
+                <div className='productLinks'>
+                    <p>For agents seeking a quote, click below</p>
+                    <TextButton link="http://advisor.allegisag.com/forms/long-term-care-quote-request" name='Long-Term Care Quote' />
+                </div>
         </div>
     );
 };
