@@ -6,9 +6,9 @@ const Contact = () => {
     return (
         <div className='l extraPadding'>
             <h2>GET IN TOUCH</h2>
-            <h4>Please fill out the form below and we will in touch as soon as possible.</h4><br />
+            <h4>Please fill out the form below and we will in touch as soon as possible. If this is an urgent matter, please call or email us directly.</h4><br />
             <div className='l--two-col'>
-                <div className='l-main'>
+                <div className='l-main border-right'>
                     <Form field1='Name' field2='Email' field3='Message' button='SUBMIT' />
                 </div>
                 <div className='l-sidebar'>
