@@ -11,12 +11,11 @@
 	font-weight: bold;
 	padding: 1rem 1rem;
 	border: 0;
-	border-radius: $border-radius;
 	text-align: center;
 	transition: background 0.2s ease;
 	box-shadow: 1px 1px 4px $color-gray-4;
 	background: $color-brand-primary;
-	color: $color-gray-7;
+	color: $color-gray-1;
 
 	&:hover, &:focus {
 		background: $color-brand-primary-dark;

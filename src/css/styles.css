@@ -933,12 +933,11 @@ abbr {
   font-weight: bold;
   padding: 1rem 1rem;
   border: 0;
-  border-radius: 6px;
   text-align: center;
   transition: background 0.2s ease;
   box-shadow: 1px 1px 4px #808080;
   background: darkseagreen;
-  color: #222222;
+  color: #f7f9f9;
   /**
    * Disabled button
    */
@@ -1133,10 +1132,12 @@ abbr {
  * Footer Nav Links
  */
 .c-footer-nav__link a {
+  font-size: 1rem;
   font-weight: bold;
   display: block;
   padding: 1rem 2rem 1rem 0;
   color: #fff;
+  text-transform: uppercase;
 }
 .c-footer-nav__link a:hover, .c-footer-nav__link a:focus {
   color: #a5a5a5;
@@ -1180,6 +1181,10 @@ abbr {
  */
 .c-form__actions {
   margin-bottom: 2rem;
+}
+
+.c-form textarea {
+  margin-bottom: 10px;
 }
 
 /*------------------------------------*\
@@ -1755,9 +1760,11 @@ textarea {
  * Nav Links
  */
 .c-primary-nav__link {
+  font-size: 1rem;
   font-weight: bold;
   display: block;
   padding: 1rem;
+  text-transform: uppercase;
 }
 
 /**
@@ -2341,6 +2348,7 @@ progress[value]::-webkit-progress-bar {
 .c-figure__caption .captionTitle {
   font-weight: bold;
   font-style: normal !important;
+  text-transform: uppercase;
 }
 
 .activeItem {
@@ -2446,7 +2454,7 @@ h2 {
   align-items: center !important;
 }
 #lori img {
-  max-height: 500px !important;
+  max-height: 400px !important;
   padding: 5%;
 }
 
