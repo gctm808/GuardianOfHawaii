@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Button from '../components/molecules/button';
 import TextButton from '../components/molecules/textButton';
 import TextArea from '../components/molecules/textarea';
@@ -6,7 +6,7 @@ import '../css/styles.css';
 
 const Atoms = () => {
     return (
-        <div className='l'>
+        <Fragment className='l'>
             <h1>Modifiable Atoms</h1>
             <Button />
             <br />
@@ -120,7 +120,7 @@ const Atoms = () => {
             <img src={require('../images/fpo_landscape.png')} alt='landscape' />
             <img src={require('../images/fpo_square.png')} alt='square' />
             <img src={require('../images/logo.png')} alt='logo' className='c-logo'/>
-        </div>
+        </Fragment>
     );
 };
 

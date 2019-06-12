@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../css/styles.css';
 
 const About = () => {
     return (
-        <div className='l extraPadding'>
+        <Fragment className='l extraPadding'>
             <h2>OUR FOUNDER</h2>
             <p>Hammer in hand, Fredrick K. Tseu opened shop on South King Street in Honolulu on April 15th, 1955. By his side, was Edna Loo, his future wife. He was a resourceful man and made use of the training and self-confidence he received from the Navy to entrench himself in the insurance world. He always had a joke on hand to share.</p>
             <div className='splitContainer'>
@@ -24,7 +24,7 @@ const About = () => {
                     <img src={require('../images/lori.jpg')} alt='lori' />
                 </div>
             </div>
-        </div>
+        </Fragment>
     );
 };
 

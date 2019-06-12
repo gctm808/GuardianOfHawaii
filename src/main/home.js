@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Button from '../components/molecules/button';
 import landing from '../images/landing.jpg';
 import Description from './landing/description';
@@ -8,7 +8,7 @@ import '../css/styles.css';
 
 const Home = () => {
     return (
-        <div>
+        <Fragment>
             <div style={{  backgroundImage: `url(${landing})`,
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
@@ -25,7 +25,7 @@ const Home = () => {
             <Description />
             <About />
             <Products />
-        </div>
+        </Fragment>
     );
 };
 

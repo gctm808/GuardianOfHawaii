@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../css/styles.css';
 import Header from '../components/organisms/header';
 import Footer from '../components/organisms/footer';
@@ -16,7 +16,7 @@ import {Route} from 'react-router-dom';
 
 const Landing = () => {
     return (
-        <div>
+        <Fragment>
             <Header />
             {/*Content Div*/}
                 <Route exact path='/' component={Home} />
@@ -30,7 +30,7 @@ const Landing = () => {
                 <Route exact path='/products/ltc' component={Ltc} />
                 <Route exact path='/products/linked' component={Linked} />
             <Footer />
-        </div>
+        </Fragment>
     );
 };
 

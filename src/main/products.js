@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../css/styles.css';
 import '../components/molecules/productBox';
 import ProductBox from '../components/molecules/productBox';
 
 const Products = () => {
     return (
-        <div className='l extraPadding'>
+        <Fragment className='l extraPadding'>
             <h2>FULLY CUSTOMIZED SERVICE</h2>
             <p>We pride ourselves in keeping business friendly and light and provide our brokers with competitive commission as well as the attentiveness needed to further their individual success. Being a boutique agency, we know each broker and company by name, so we can better serve our clients’ needs.</p>
             <h2>WHAT WE OFFER</h2>
@@ -34,7 +34,7 @@ const Products = () => {
                 content='Sometimes a traditional stand-alone long term care policy can be pricey and if you don’t ever use your policy, you’ve lost all the premiums you’ve put into it, and oftentimes a carrier will raise your premiums. A Linked Benefit product combines universal life and long term care benefits into one product, providing a bucket of money for covered long term care expenses, a death benefit or both. You may even choose to have your premium returned should you choose to terminate your policy. And the premiums and benefits are guaranteed.'
                 link='./products/linked'
             />
-        </div>
+        </Fragment>
     );
 };
 

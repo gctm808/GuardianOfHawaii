@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../css/styles.css';
 
 const Login = () => {
     return (
-        <div>
+        <Fragment>
             login
-        </div>
+        </Fragment>
     );
 };
 

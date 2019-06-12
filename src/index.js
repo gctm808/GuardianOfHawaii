@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 
 //Style Guide Components

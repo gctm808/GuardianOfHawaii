@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../../css/styles.css';
 
 const Linked = () => {
     return (
-        <div className='l extraPadding'>
+        <Fragment className='l extraPadding'>
             Linked
-        </div>
+        </Fragment>
     );
 };
 

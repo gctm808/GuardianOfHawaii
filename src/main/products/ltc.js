@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../../css/styles.css';
 import TextButton from '../../components/molecules/textButton';
 
 const Ltc = () => {
     return (
-        <div className='l extraPadding'>
+        <Fragment className='l extraPadding'>
             <h2>Long-Term Peace of Mind</h2>
                 <p>Our significant partnerships have produced a broad portfolio of Long Term Care options, including individual, joint, and linked benefit products. With the senior population growing by strides and with limited availability of resources for Long Term Care options, we constantly look for new trends to present our clients with the most advanced and complete services available.</p>
                 <h2>A Comprehensive Portfolio</h2>
@@ -22,7 +22,7 @@ const Ltc = () => {
                     <p>For agents seeking a quote, click below</p>
                     <TextButton link="http://advisor.allegisag.com/forms/long-term-care-quote-request" name='Long-Term Care Quote' />
                 </div>
-        </div>
+        </Fragment>
     );
 };
 
