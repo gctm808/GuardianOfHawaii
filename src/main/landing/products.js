@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../../css/styles.css';
 import FigWithCaption from '../../components/molecules/figWithCaption';
+import Button from '../../components/molecules/button';
 
 class Products extends Component {
     constructor(props){
@@ -81,9 +82,7 @@ class Products extends Component {
                     </div>
                     <i onClick={this.clickNext} className="fas fa-chevron-right fa-3x productNav"></i>
                 </div>
-                <div>
-                    .    .    .
-                </div>
+                <Button name='Learn More' />
             </div>
         )
     }

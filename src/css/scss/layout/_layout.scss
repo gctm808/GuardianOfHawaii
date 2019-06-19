@@ -27,6 +27,10 @@
 	flex-direction: column;
 
 	.l-main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
 		@media all and (min-width: $bp-large) {
 			width: 60%;
 			padding-right: $pad;

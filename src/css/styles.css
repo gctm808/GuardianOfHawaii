@@ -1743,6 +1743,7 @@ textarea {
  */
 .c-page-header__title {
   padding: 1rem 0 0.5rem;
+  margin-bottom: 1rem;
   position: relative;
   color: #444444;
 }
@@ -1993,6 +1994,11 @@ progress[value]::-webkit-progress-bar {
   /**
    * Sidebar
    */
+}
+.l--two-col .l-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media all and (min-width: 50em) {
   .l--two-col .l-main {
@@ -2274,6 +2280,9 @@ progress[value]::-webkit-progress-bar {
 .productsContainer h2 {
   padding: 30px 0;
 }
+.productsContainer Button {
+  margin: 1.5rem 0;
+}
 
 .productsPlusArrows {
   display: flex;
@@ -2407,12 +2416,21 @@ h2:nth-of-type(2) {
 
 #loriDescription {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productBoxContainer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .productBox {
-  padding: 1rem;
+  padding: 2rem;
   background-color: aliceblue;
+  margin-bottom: 3rem;
+  width: 80%;
 }
 
 /*------------------------------------*\
