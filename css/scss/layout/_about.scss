@@ -1,0 +1,39 @@
+.extraPadding {
+    padding: 5rem !important;
+}
+
+
+.splitContainer {
+    display: flex;
+
+    .half1 {
+        flex: 50%;
+    }
+
+    .half2 {
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 85% !important;
+            padding: 5%;
+        }
+    }
+}
+
+
+#lori {
+    align-items: center !important;
+
+    img {
+        max-height: 400px !important;
+        padding: 5%;
+    }
+}
+
+#loriDescription {
+    display: flex;
+    align-items: center;
+}

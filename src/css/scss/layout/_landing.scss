@@ -24,6 +24,7 @@
     }
 }
 
+
 .descriptionSection {
     min-height: 50vh;
     display: flex;
@@ -43,8 +44,9 @@
 .aboutContainer {
     min-height: 60vh;
     background-color: #f3f5f5;
-    padding-top: 30px;
     padding-left: 60px;
+    display: flex;
+    align-items: center;
 
     h2 {
         padding: 70px 0 20px;
@@ -101,6 +103,7 @@
     .captionTitle {
         font-weight: bold;
         font-style: normal !important;
+        text-transform: uppercase;
     }
 }
 

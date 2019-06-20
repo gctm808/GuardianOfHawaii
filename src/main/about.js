@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../css/styles.css';
 import Blockquote from '../components/molecules/blockquote';
 
@@ -15,9 +15,12 @@ const About = () => {
                     <img src={require('../images/fred.jpg')} alt='fred' />
                 </div>
             </div>
-            <p>Fred retired in 2001 to spend more time with his wife and seven beautiful granddaughters. He passed the business along to two of his children, Steven Tseu and Lori A. Tseu-Rodriguez but continued to come to the office for coffee, to deliver policies and give commission checks to brokers. Steven and Lori worked to grow the business and further their father’s legacy together for over fifteen years. Today, his daughter, Lori, continues Fred’s agency as President and CEO of Guardian of Hawaii. She fosters the connections her father made back “in the good old days” and continues to create connections and enrich relationships of her own. She embraces the local and humorous attitude that Fred mixed in with solid foundations of integrity, honesty, perseverance, and good old hard work.</p>
+            <p>Fred retired in 2001 to spend more time with his wife and seven beautiful granddaughters. He passed the business along to two of his children, Steven Tseu and Lori A. Tseu-Rodriguez but continued to come to the office for coffee, to deliver policies and give commission checks to brokers. Steven and Lori worked to grow the business and further their father’s legacy together for over fifteen years.</p><br /><br />
             <h2>OUR CEO</h2>
             <div className='splitContainer'>
+                <div className='half1' id='loriDescription'>
+                    <p>Today, his daughter, Lori, continues Fred’s agency as President and CEO of Guardian of Hawaii. She fosters the connections her father made back “in the good old days” and continues to create connections and enrich relationships of her own. She embraces the local and humorous attitude that Fred mixed in with solid foundations of integrity, honesty, perseverance, and good old hard work. She is passionate about helping and serving people. In her free time, she enjoys word puzzles, reading, sewing, and mah jongg among other joys. She also loves experiencing new cultures, eating ethnic foods; but her favorite is spending time with family and friends. "You can never get back time, nor can you rely on tomorrow; tomorrow is never promised." -This is the reason she is an advocate for life insurance and is motivated to help her agents find the right tools, carriers and products for their clients. </p>
+                </div>
                 <div className='half2'  id='lori'>
                     <img src={require('../images/lori.jpg')} alt='lori' />
                 </div>

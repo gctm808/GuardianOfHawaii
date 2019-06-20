@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import '../css/styles.css';
 import Footer from '../components/organisms/footer';
 import Header from '../components/organisms/header';
@@ -11,7 +11,7 @@ import TextBlob from '../components/organisms/textBlob';
 
 const organisms = () => {
     return (
-        <div className='l'>
+        <Fragment className='l'>
             <h1>Organisms</h1>
             <Footer />
             <Header />
@@ -21,7 +21,7 @@ const organisms = () => {
             <PageTitle />
             <MediaListSection />
             <TextBlob />
-        </div>
+        </Fragment>
     );
 };
 
