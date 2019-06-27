@@ -16,7 +16,7 @@ import {Route} from 'react-router-dom';
 
 const Landing = () => {
     return (
-        <Fragment>
+        <div>
             <Header />
             {/*Content Div*/}
                 <Route exact path='/' component={Home} />
@@ -30,7 +30,7 @@ const Landing = () => {
                 <Route exact path='/products/ltc' component={Ltc} />
                 <Route exact path='/products/linked' component={Linked} />
             <Footer />
-        </Fragment>
+        </div>
     );
 };
 
