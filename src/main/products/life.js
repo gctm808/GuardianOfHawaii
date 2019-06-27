@@ -1,10 +1,10 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import '../../css/styles.css';
 import TextButton from '../../components/molecules/textButton';
 
 const Life = () => {
     return (
-        <Fragment className='l extraPadding'>
+        <div className='l extraPadding'>
             <div>
                 <h2>Establishing a Solid Simple Foundation</h2>
                 <div className='lifeList'>
@@ -36,7 +36,7 @@ const Life = () => {
                 <p>For agents seeking a quote, click below</p>
                 <TextButton link="http://advisor.allegisag.com/forms/life-insurance-illustration-request" name='Life Insurance Quote' />    
             </div>
-        </Fragment>
+        </div>
     );
 };
 

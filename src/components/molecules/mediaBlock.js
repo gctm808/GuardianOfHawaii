@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {Fragment} from 'react';
+import React from 'react';
 import '../../css/styles.css';
 
 const MediaBlock = (props) => {
@@ -10,7 +10,7 @@ const MediaBlock = (props) => {
     };
 
     return (
-        <Fragment>
+        <div>
             <a href="#" className="c-block-media c-block-media--">
                 <div className="c-block-media__media">
                     <img src={require(`../../images/${media.src}`)} alt='square' className="c-block-media__img" />
@@ -20,7 +20,7 @@ const MediaBlock = (props) => {
                     <p className="c-block-media__excerpt">{media.excerpt}</p>
                 </div>
             </a>
-        </Fragment>
+        </div>
     );
 };
 

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/style-prop-object */
-import React, {Fragment} from 'react';
+import React from 'react';
 import HeroBlock from '../components/molecules/heroBlock';
 import MediaBlock from '../components/molecules/mediaBlock';
 import ToutBlock from '../components/molecules/toutBlock';
@@ -17,7 +17,7 @@ import '../css/styles.css';
 
 const Molecules = () => {
    return (
-    <Fragment className='l'>
+    <div className='l'>
       <h1>Molecules</h1>
       <HeroBlock img='fpo_hero.png' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit iopa. (76 characters)' />
       <MediaBlock img='fpo_square.png' headline='Lorem ipsum dolor sit (37 characters)' excerpt='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' />
@@ -34,7 +34,7 @@ const Molecules = () => {
       <Pagination />
       <Nav />
       <Blockquote quote='A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.' cite='Wikipedia' />
-    </Fragment>
+    </div>
   );
 }
 

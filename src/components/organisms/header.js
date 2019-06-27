@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {Fragment} from 'react';
+import React from 'react';
 import '../../css/styles.css';
 import LogoLink from '../molecules/logoLink';
 import Nav from '../molecules/nav';
@@ -7,7 +7,7 @@ import Nav from '../molecules/nav';
 
 const Header = () => {
     return (
-        <Fragment>
+        <div>
             <header className="c-header" role="banner">
                 <LogoLink img='logo.png' link=' ' />
                 <div className="c-header__controls">
@@ -15,7 +15,7 @@ const Header = () => {
                     <Nav />
                 </div>
             </header>
-        </Fragment>
+        </div>
     );
 };
 

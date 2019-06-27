@@ -1,10 +1,10 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import '../../css/styles.css';
 import TextButton from '../../components/molecules/textButton';
 
 const Annuities = () => {
     return (
-        <Fragment className='l extraPadding'>
+        <div className='l extraPadding'>
             <h2>Making your money work for you</h2>
             <div class="video-responsive">
                 <iframe width="936" height="534" title='annuities' src="https://www.youtube.com/embed/smZOK8eozJc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
@@ -43,7 +43,7 @@ const Annuities = () => {
                 <p className='isBold'>For agents seeking a quote, click below</p>
                 <TextButton name='Annuity Quote' link='http://advisor.allegisag.com/forms/annuity-quote-request' />
             </div>
-        </Fragment>
+        </div>
     );
 };
 

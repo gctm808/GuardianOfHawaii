@@ -1,11 +1,11 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import '../../css/styles.css';
 import Button from '../../components/molecules/button';
 import {NavLink} from 'react-router-dom';
 
 const About = () => {
     return (
-        <Fragment className='l aboutContainer'>
+        <div className='l aboutContainer'>
             <div className='l--two-col'>
                 <div className='l-main'>
                     <h2>OUR COMPANY</h2>
@@ -16,7 +16,7 @@ const About = () => {
                     <img src={require('../../images/family.jpg')} alt='family' />
                 </div>
             </div>
-        </Fragment>
+        </div>
     );
 };
 

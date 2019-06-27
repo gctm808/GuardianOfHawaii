@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {Fragment} from 'react';
+import React from 'react';
 import '../css/styles.css';
 import Button from '../components/molecules/button';
 
 const Agents = () => {
     return (
-        <Fragment className='l agents extraPadding'>
+        <div className='l agents extraPadding'>
             <h2>NEW TO ALLEGIS?</h2>
             <div className='intro'>
                 <p>Allegis is not just an office or agency. Allegis is integrity, teamwork, honesty, family. They have experts in each life insurance discipline to support us and will even help you make the sale to your client with you on the phone. They've got us covered providing seminar training, incentive trips, workshops, and even run illustrations for you. They are cordial, professional, driven, and their enthusiasm for our industry is positively contagious! They have made us a part of their family, and I want to welcome you to ours.</p>
@@ -33,7 +33,7 @@ const Agents = () => {
                     <img src={require('../images/handshake.jpg')} alt='handshake' />
                 </div>
             </div>
-        </Fragment>
+        </div>
     );
 };
 

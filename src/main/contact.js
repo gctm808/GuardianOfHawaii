@@ -16,6 +16,8 @@ const Contact = () => {
                     <p>9am - 4pm HST</p>
                     <p>Phone Number</p>
                     <p>(808) 531-9911</p>
+                    <p>Email</p>
+                    <p>lori@guardianofhawaii.com</p>
                 </div>
             </div>
         </div>
