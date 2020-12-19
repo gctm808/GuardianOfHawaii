@@ -1,17 +1,17 @@
 import React from 'react';
 import '../../css/styles.css';
 import TextButton from '../../components/molecules/textButton';
-
+/*
 componentDidMount () {
     const script = document.createElement("script");
 
     script.src = "https://alq.ixn.tech/js/alq.widget.js";
-    script.async = true;/*
+    script.async = true;
     <script type="text/javascript">
         window.IXN_QUOTER_CONFIG = { id: "21b3aad4-c8c9-478a-8875-2687e20a5599" }
-    </script>*/
+    </script>
     document.body.appendChild(script);
-}
+}*/
 
 const Life = () => {
     return (
