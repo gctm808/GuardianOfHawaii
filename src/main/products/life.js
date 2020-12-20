@@ -7,9 +7,7 @@ componentDidMount () {
 
     script.src = "https://alq.ixn.tech/js/alq.widget.js";
     script.async = true;
-    <script type="text/javascript">
-        window.IXN_QUOTER_CONFIG = { id: "21b3aad4-c8c9-478a-8875-2687e20a5599" }
-    </script>
+    
     document.body.appendChild(script);
 }*/
 
@@ -39,7 +37,7 @@ const Life = () => {
             </div>
             <h3>Life Insurance Calculators:</h3>
             <p>These life insurance calculators that will help to determine your life insurance needs:</p>
-            <link href="https://alq.ixn.tech/css/reset.css" rel="stylesheet" type="text/css" />
+            
             
             <div id="ixn-agency-quoter"></div>
             <div className='calculators'>
