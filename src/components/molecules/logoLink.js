@@ -12,7 +12,7 @@ const logoLink = (props) => {
     return (
         <NavLink exact to='/'>
             <a className="c-logo-link">
-                <img src={require(`../../images/${logo.png}`)} className="c-logo c-logo-link__img" alt="homelink" />
+                <img src={require(`../../images/${logo.img}`)} className="c-logo c-logo-link__img" alt="homelink" />
             </a>
         </NavLink>
     );
