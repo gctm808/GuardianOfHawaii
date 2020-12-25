@@ -1,0 +1,1 @@
+window.IXN_QUOTER_CONFIG = { id: "21b3aad4-c8c9-478a-8875-2687e20a5599" }

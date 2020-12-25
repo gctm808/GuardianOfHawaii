@@ -7,6 +7,7 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
     "react-router-scroll-top": "^0.1.1",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "^4.0.1",
     "sass": "^1.19.0"
   },
