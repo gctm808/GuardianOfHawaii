@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Alq from './alq';
 import Alq3 from './alq3';
 import '../../css/styles.css';
