@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Alq from './alq';
+import Alq3 from './alq3';
 import '../../css/styles.css';
 import TextButton from '../../components/molecules/textButton';
 
@@ -17,6 +18,8 @@ class Life extends Component {
     render() {
         return (
             <div className='l extraPadding'>
+                <link href="https://alq.ixn.tech/css/reset.css" rel="stylesheet" type="text/css"></link>
+                <Alq3 />
                 <div id="ixn-agency-quoter"></div>
                 <Alq />
                 <div>
