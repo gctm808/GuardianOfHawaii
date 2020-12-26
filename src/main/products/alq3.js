@@ -4,7 +4,7 @@ import ScriptTag from 'react-script-tag';
 class Alq extends Component {
  
     render() {
-        return (<ScriptTag isHydrating={true} type="text/javascript" src='alq2.js' />);
+        return (<ScriptTag isHydrating={true} type="text/javascript" src='./alq2.js' />);
     }
 }
 
