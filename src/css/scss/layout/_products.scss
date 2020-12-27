@@ -64,6 +64,7 @@
 .lifeList {
     display: flex;
     padding: 20px 0;
+    margin: 0 auto;
 
     .left {
         flex: 30%;
@@ -78,18 +79,16 @@
 
 .calculators {
     display: flex;
-    width: 90vw;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
     overflow-x: auto;
     overflow-y: hidden;
     height: 740px;
 
     iframe {
-        width:50%;
-        margin: 15px 0;
+        margin: 15px auto;
         height: 100%;
-        width: 100%;
+        width: 620px
     }
 }
 
