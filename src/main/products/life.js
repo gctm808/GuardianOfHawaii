@@ -1,6 +1,8 @@
 import React from 'react';
 import Alq from './alq';
 import Alq3 from './alq3';
+import FormEngine from './formEngine';
+import FormEngine3 from './formEngine3';
 import '../../css/styles.css';
 import TextButton from '../../components/molecules/textButton';
 
@@ -439,6 +441,11 @@ const Life = () => {
                 </div>
             </div>
             <Alq />
+            <p>Forms Engine</p>
+            <link href="https://forms.ixn.tech/css/reset.css" rel="stylesheet" type="text/css"></link>
+            <FormEngine3 />
+
+            <FormEngine />
             <div className='calculators'>
                 <iframe title='calc1' src="https://widgets.memberedge.io/planner/?cHJpbWFyeT04RkJDOEYmc2Vjb25kYXJ5PWZmYmEwMCZ0ZXh0PWZmZmZmZiZoaWdobGlnaHQ9ZmZiYTAwJmxpZmU9aHR0cDovL3d3dy5saWZlaGFwcGVucy5vcmcvaW5zdXJhbmNlLW92ZXJ2aWV3L2xpZmUtaW5zdXJhbmNlLyZkaXNhYmlsaXR5PWh0dHA6Ly93d3cubGlmZWhhcHBlbnMub3JnL2luc3VyYW5jZS1vdmVydmlldy9kaXNhYmlsaXR5LWluc3VyYW5jZS8mbG9uZ3Rlcm09aHR0cDovL3d3dy5saWZlaGFwcGVucy5vcmcvaW5zdXJhbmNlLW92ZXJ2aWV3L2Rpc2FiaWxpdHktaW5zdXJhbmNlLyZ1c2VyPTI3NDA5JnR5cGU9cGxhbm5lcg==" border="0" scrolling="no"></iframe>
             </div>
