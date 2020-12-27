@@ -2654,6 +2654,11 @@ h2 {
   border: 1px solid #e5e5e5;
 }
 
+.bottomBorder {
+  border-bottom: 5px solid black;
+  margin-bottom: 100px;
+}
+
 /*------------------------------------*\
     $STYLE GUIDE
 \*------------------------------------*/
