@@ -10,10 +10,8 @@ const logoLink = (props) => {
     }
 
     return (
-        <NavLink exact to='/'>
-            <a className="c-logo-link">
-                <img src={require(`../../images/${logo.img}`)} className="c-logo c-logo-link__img" alt="homelink" />
-            </a>
+        <NavLink exact to='/' className="c-logo-link">
+            <img src={require(`../../images/${logo.img}`).default} className="c-logo c-logo-link__img" alt="homelink" />
         </NavLink>
     );
 };

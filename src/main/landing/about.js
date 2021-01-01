@@ -13,7 +13,7 @@ const About = () => {
                     <NavLink exact to='/about'><Button name='LEARN MORE' /></NavLink>
                 </div>
                 <div className='l-sidebar'>
-                    <img src={require('../../images/family.jpg')} alt='family' />
+                    <img src={require('../../images/family.jpg').default} alt='family' />
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@ const Agents = () => {
                     </div>
                 </div>
                 <div className='pic'>
-                    <img src={require('../images/handshake.jpg')} alt='handshake' />
+                    <img src={require('../images/handshake.jpg').default} alt='handshake' />
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ const MediaBlock = (props) => {
         <div>
             <a href="#" className="c-block-media c-block-media--">
                 <div className="c-block-media__media">
-                    <img src={require(`../../images/${media.src}`)} alt='square' className="c-block-media__img" />
+                    <img src={require(`../../images/${media.src}`).default} alt='square' className="c-block-media__img" />
                 </div>
                 <div className="c-block-media__body">
                     <h2 className="c-block-media__headline">{media.headline}</h2>

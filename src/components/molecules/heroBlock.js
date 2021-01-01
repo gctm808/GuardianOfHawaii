@@ -9,7 +9,7 @@ const HeroBlock = (props) => {
     return (
         <div>
             <a href="#" className="c-block-hero">
-                <img src={require(`../../images/${img.src}`)} alt='hero' className="c-block-hero__img" />
+                <img src={require(`../../images/${img.src}`).default} alt='hero' className="c-block-hero__img" />
                 <h2 className="c-block-hero__headline">{props.text}</h2>
             </a>
         </div>

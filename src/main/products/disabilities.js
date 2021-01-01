@@ -10,8 +10,8 @@ const Disabilities = () => {
             <h2>Best-In-Class Service</h2>
             <p>Focusing on providing the best detailed information with proficiency, our personalized attention is done so with accuracy and efficiency. Our successful approach has helped us become the idyllic channel for financial professionals and their clients.</p>     
             <div className='disabilityGraphics'>
-                <img src={require("../../images/disabilityGraphic1.jpg")} alt='disability graphic 1' />
-                <img src={require("../../images/disabilityGraphic2.png")} alt='disability graphic 2' />
+                <img src={require("../../images/disabilityGraphic1.jpg").default} alt='disability graphic 1' />
+                <img src={require("../../images/disabilityGraphic2.png").default} alt='disability graphic 2' />
             </div>
             <div className='disabilityVideo'>
                 <iframe src="//lifehappenspro.org/resources/embeded?userId=27409&videoId=6004517548001" title='disability' width="660" height="371" scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>

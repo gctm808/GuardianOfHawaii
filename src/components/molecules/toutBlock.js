@@ -12,7 +12,7 @@ const ToutBlock = (props) => {
     return (
         <div>
             <a href={tout.link} className="c-block-tout">
-                <img src={require(`../../images/${tout.img}`)} alt="Landscape" className="c-block-tout__img" />
+                <img src={require(`../../images/${tout.img}`).default} alt="Landscape" className="c-block-tout__img" />
                 <h2 className="c-block-tout__headline">{tout.headline}</h2>
             </a>
         </div>

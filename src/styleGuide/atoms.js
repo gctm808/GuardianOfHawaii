@@ -115,11 +115,11 @@ const Atoms = () => {
                 <span className="sg-label">$color-utility-neutral-subtle<br />#d3f2ff</span>
                 </li>
             </ul>
-            <img src={require('../images/fpo_avatar.png')} alt='avatar' />
-            <img src={require('../images/fpo_hero.png')} alt='hero' />
-            <img src={require('../images/fpo_landscape.png')} alt='landscape' />
-            <img src={require('../images/fpo_square.png')} alt='square' />
-            <img src={require('../images/logo.png')} alt='logo' className='c-logo'/>
+            <img src={require('../images/fpo_avatar.png').default} alt='avatar' />
+            <img src={require('../images/fpo_hero.png').default} alt='hero' />
+            <img src={require('../images/fpo_landscape.png').default} alt='landscape' />
+            <img src={require('../images/fpo_square.png').default} alt='square' />
+            <img src={require('../images/logo.png').default} alt='logo' className='c-logo'/>
         </div>
     );
 };
