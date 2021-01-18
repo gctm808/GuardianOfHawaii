@@ -18,7 +18,7 @@ const Home = () => {
                     <div className='headers'>
                         <h1 className='transitionTop'>YOUR CLIENTS COME FIRST</h1>
                         <h2 className='transitionLeft' style={{lineHeight: "1.5"}}>Guardian of Hawaii. <span style={{fontWeight: "lighter"}}>Helping you protect <br />what matters most to your clients.</span></h2>
-                        <div className='transitionBottom'><a href='https://lifepipe.ipipeline.com/LTSearch.aspx?r=1490547670704388677&GAID=5229' target='_blank' rel='noopener noreferrer'><Button name='RUN MY QUOTE'/></a></div>
+                        <div className='transitionBottom'><a href='/calculators'><Button name='RUN MY QUOTE'/></a></div>
                     </div>
                 </div>
             </div>

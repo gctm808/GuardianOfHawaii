@@ -11,6 +11,8 @@ import Annuities from './products/annuities';
 import Disabilities from './products/disabilities';
 import Life from './products/life';
 import Calculators from './calculators';
+import Forms from './forms';
+import Underwriting from './underwriting';
 import Ltc from './products/ltc';
 import Linked from './products/linked';
 import {Route} from 'react-router-dom';
@@ -21,6 +23,8 @@ const Landing = () => {
             <Header />
             {/*Content Div*/}
                 <Route exact path='/calculators' component={Calculators} />
+                <Route exact path='/Underwriting' component={Underwriting} />
+                <Route exact path='/Forms' component={Forms} />
                 <Route exact path='/' component={Home} />
                 <Route exact path='/about' component={About} />
                 <Route exact path='/products' component={Products} />
