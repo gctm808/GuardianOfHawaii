@@ -25,7 +25,7 @@ const Life = () => {
                 </div>   
             </div>
             <div className='video-responsive'>
-                <iframe title='lifeVid' src="//lifehappenspro.org/resources/embeded?userId=27409&videoId=5834859709001" width="360" height="371" scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+                <iframe title='lifeVid' src="//lifehappenspro.org/resources/embeded?userId=27409&videoId=6213625718001" width="360" height="371" scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
             </div>
             <h3>Life Insurance Calculators:</h3>
             <p>These life insurance calculators will help to determine your life insurance needs:</p>
