@@ -192,6 +192,10 @@ body {
   overflow-x: hidden;
 }
 
+.bullets {
+  list-style-type: disc;
+}
+
 /*------------------------------------*\
     #ANIMATION
 \*------------------------------------*/
