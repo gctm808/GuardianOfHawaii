@@ -13,15 +13,10 @@ const Agents = () => {
             <div className='quickLinks'>
                 <div className='links'>
                     <h2>AGENT QUICK LINKS</h2>
-                    <p>Already an agent? New with Allegis? Use the links below for quick access to agent tools.</p>
+                    <p>Already an agent? Not yet registered with Allegis? Use the links below for quick access to agent tools.</p>
                     <div className='buttonContainer'>
                         <div className='buttons'>
                             <a href='https://s3.amazonaws.com/allegisag/other/Allegis-Contracting+Packet-v2.07.pdf' target='_blank' rel='noopener noreferrer'><Button name="CONTRACTING RESOURCES" /></a>
-                            <a href='/calculators'><Button name="RUN MY TERM QUOTE" /></a>
-                            <a href='/forms'><Button name="CARRIER FORMS" /></a>
-                        </div>
-                        <div className='buttons'>
-                            <a href='/underwriting'><Button name="UNDERWRITING GUIDELINES" /></a>
                             <a href='http://advisor.allegisag.com/users/sign_up' target='_blank' rel='noopener noreferrer'><Button name="I'M NEW TO ALLEGIS" /></a>
                         </div>
                     </div>

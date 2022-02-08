@@ -1,7 +1,7 @@
 import React from 'react';
 import Alq from './products/alq';
 import Alq3 from './products/alq3';
-import '../../css/styles.css';
+import '../css/styles.css';
 
 
 const Calculators = () => {

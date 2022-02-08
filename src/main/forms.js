@@ -1,13 +1,13 @@
 import React from 'react';
 import FormEngine from './products/formEngine';
 import FormEngine3 from './products/formEngine3';
-import '../../css/styles.css';
+import '../css/styles.css';
 
 
 const Forms = () => {
-    return (
-        <div className='l extraPadding'>
-            <h2>Form Engine</h2>
+    return (        
+        <div className = 'l extraPadding'>
+            <p>Forms Engine:</p>
             <link href="https://forms.ixn.tech/css/reset.css" rel="stylesheet" type="text/css"></link>
             <FormEngine3 />
             <div id="ixn-forms-engine" class='bottomBorder'>

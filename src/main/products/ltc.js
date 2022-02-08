@@ -15,9 +15,6 @@ const Ltc = () => {
                     <img src={require('../../images/ltcFact1.png').default} alt='fact1' />
                     <img src={require('../../images/ltcFact2.png').default} alt='fact2' />
                 </div>
-                <div className='ltcVideo'>
-                    <iframe title='ltcVid' width="936" height="534" src="https://lifehappenspro.org/resources/1016/preview?contentonly=true&token=a9bf620c94b3f28969422f11e926578b" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                </div>
                 <div className='productLinks'>
                     <p>For agents seeking a quote, click below</p>
                     <TextButton link="http://advisor.allegisag.com/forms/long-term-care-quote-request" name='Long-Term Care Quote' />
