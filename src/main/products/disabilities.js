@@ -14,7 +14,7 @@ const Disabilities = () => {
                 <img src={require("../../images/disabilityGraphic2.png").default} alt='disability graphic 2' />
             </div>
             <div className='disabilityVideo'>
-                <iframe src="//lifehappenspro.org/resources/embeded?userId=27409&videoId=6004517548001" title='disability' width="660" height="371" scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+                <iframe src="https://youtu.be/UhqLzS7OXAo" title='disability' width="660" height="371" scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
             </div>
             <div className='productLinks'>
                 <p>For agents seeking a quote, click below</p>
